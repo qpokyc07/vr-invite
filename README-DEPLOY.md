@@ -1,1 +1,90 @@
-IyBWUiBJbnZpdGUg4oCUINCy0LXQsS3QstC10YDRgdC40Y86IEdpdEh1YiBQYWdlcyArIFRlbGVncmFtIE1pbmkgQXBwCgrQrdGC0LAg0L/QsNC/0LrQsCDigJQg0LPQvtGC0L7QstGL0Lkg0YHRgtCw0YLQuNGH0LXRgdC60LjQuSDRgdCw0LnRgi4g0J3QuNGH0LXQs9C+INGB0L7QsdC40YDQsNGC0Ywg0L3QtSDQvdGD0LbQvdC+LgoKLS0tCgojIyAxLiDQktGL0LvQvtC20LjRgtGMINC90LAgR2l0SHViIFBhZ2VzICgxMCDQvNC40L3Rg9GCKQoKMS4g0JfQsNGA0LXQs9C40YHRgtGA0LjRgNGD0LnRgtC10YHRjCDQvdCwIGdpdGh1Yi5jb20gKNC10YHQu9C4INC10YnRkSDQvdC10YIg0LDQutC60LDRg9C90YLQsCkuCjIuICoqTmV3IHJlcG9zaXRvcnkqKiDihpIg0LjQvNGPIGB2ci1pbnZpdGVgIOKGkiAqKlB1YmxpYyoqIOKGkiBDcmVhdGUuCjMuINCd0LAg0YHRgtGA0LDQvdC40YbQtSDRgNC10L/QvtC30LjRgtC+0YDQuNGPOiAqKkFkZCBmaWxlIOKGkiBVcGxvYWQgZmlsZXMqKi4KNC4g0J/QtdGA0LXRgtCw0YnQuNGC0LUgKirRgdC+0LTQtdGA0LbQuNC80L7QtSDRjdGC0L7QuSDQv9Cw0L/QutC4KiogKNC90LUg0YHQsNC80YMg0L/QsNC/0LrRgyk6CiAgIC0gYGluZGV4Lmh0bWxgCiAgIC0gYGFwcC5qc2AKICAgLSBgZXhwb3J0LmpzYAogICAtIGBmYXZpY29uLnBuZ2AKICAgLSDQv9Cw0L/QutGDIGB2ZW5kb3JgINGG0LXQu9C40LrQvtC8CiAgIC0gYC5ub2pla3lsbGAgKNGB0LrRgNGL0YLRi9C5INGE0LDQudC7IOKAlCDQstC60LvRjtGH0LjRgtC1INC/0L7QutCw0Lcg0YHQutGA0YvRgtGL0YUg0YTQsNC50LvQvtCyKQo1LiAqKkNvbW1pdCBjaGFuZ2VzKiouCjYuICoqU2V0dGluZ3Mg4oaSIFBhZ2VzKiog4oaSIFNvdXJjZTogKkRlcGxveSBmcm9tIGEgYnJhbmNoKiDihpIgQnJhbmNoOiBgbWFpbmAsINC/0LDQv9C60LAgYC8gKHJvb3QpYCDihpIgKipTYXZlKiouCjcuINCn0LXRgNC10LcgMeKAkzIg0LzQuNC90YPRgtGLINGB0LDQudGCINC+0YLQutGA0L7QtdGC0YHRjyDQv9C+INCw0LTRgNC10YHRgzoKICAgYGh0dHBzOi8v0JLQkNCoLdCb0J7Qk9CY0J0uZ2l0aHViLmlvL3ZyLWludml0ZS9gCgrQn9GA0L7QstC10YDQutCwOiDQvtGC0LrRgNC+0LnRgtC1INCw0LTRgNC10YEg0LIg0LHRgNCw0YPQt9C10YDQtSDigJQg0LTQvtC70LbQtdC9INC/0L7Rj9Cy0LjRgtGM0YHRjyDQutC+0L3RgdGC0YDRg9C60YLQvtGALgoKPiDQldGB0LvQuCDRgNC10L/QvtC30LjRgtC+0YDQuNC5INC90LDQt9GL0LLQsNC10YLRgdGPINC40L3QsNGH0LUg4oCUINCw0LTRgNC10YEg0LHRg9C00LXRgiBgLi4uL9C40LzRjy3RgNC10L/QvtC30LjRgtC+0YDQuNGPL2AuCj4g0JTQvtC80LXQvSBgZ2l0aHViLmlvYCDQsdC10YHQv9C70LDRgtC90YvQuSwgSFRUUFMg0LLQutC70Y7Rh9GR0L0g0LDQstGC0L7QvNCw0YLQuNGH0LXRgdC60LguCgotLS0KCiMjIDIuINCf0L7QtNC60LvRjtGH0LjRgtGMINC60LDQuiBUZWxlZ3JhbSBNaW5pIEFwcCAoNSDQvNC40L3Rg9GCKQoKMS4g0JIgVGVsZWdyYW0g0L7RgtC60YDQvtC50YLQtSAqKkBCb3RGYXRoZXIqKiDihpIgYC9uZXdib3RgIOKGkiDQv9GA0LjQtNGD0LzQsNC50YLQtSDQuNC80Y8g0LggdXNlcm5hbWUKICAgKNC90LDQv9GA0LjQvNC10YAsIGBUb3BSYWNlckludml0ZUJvdGApLiDQn9C+0LvRg9GH0LjRgtC1INGC0L7QutC10L0gKNGF0YDQsNC90LjRgtC1INC10LPQviwg0L3QuNC60L7QvNGDINC90LUg0L7RgtC/0YDQsNCy0LvRj9C50YLQtSkuCjIuINCSIEJvdEZhdGhlcjogYC9teWJvdHNgIOKGkiDQstGL0LHQtdGA0LjRgtC1INCx0L7RgtCwIOKGkiAqKkJvdCBTZXR0aW5ncyoqIOKGkiAqKk1lbnUgQnV0dG9uKiog4oaSCiAgICoqQ29uZmlndXJlIG1lbnUgYnV0dG9uKiog4oaSINCy0YHRgtCw0LLRjNGC0LUgVVJMOgogICBgaHR0cHM6Ly/QktCQ0Kgt0JvQntCT0JjQnS5naXRodWIuaW8vdnItaW52aXRlL2AKICAg4oaSINC/0YDQuNC00YPQvNCw0LnRgtC1INC/0L7QtNC/0LjRgdGMLCDQvdCw0L/RgNC40LzQtdGAIGDQntGC0LrRgNGL0YLRjCDQv9GA0LjQs9C70LDRiNC10L3QuNC1YC4KMy4g0KLQsNC8INC20LU6ICoqQ29uZmlndXJlIE1pbmkgQXBwKiog4oaSICoqRW5hYmxlIE1pbmkgQXBwKiog4oaSINGC0L7RgiDQttC1IFVSTCDihpIKICAg0LrQvtGA0L7RgtC60L7QtSDQuNC80Y8sINC90LDQv9GA0LjQvNC10YAgYGludml0ZWAuINCf0L7RgdC70LUg0Y3RgtC+0LPQviDQsdC+0YIg0L/QvtC70YPRh9Cw0LXRgiDQv9GA0Y/QvNGD0Y4g0YHRgdGL0LvQutGDOgogICBgaHR0cHM6Ly90Lm1lL9CS0JDQqF/QkdCe0KIvaW52aXRlYAoK0JPQvtGC0L7QstC+OiDQv9GA0LjQu9C+0LbQtdC90LjQtSDQvtGC0LrRgNGL0LLQsNC10YLRgdGPINC40Lcg0LzQtdC90Y4g0LHQvtGC0LAg0Lgg0L/QviDQv9GA0Y/QvNC+0Lkg0YHRgdGL0LvQutC1LgoKLS0tCgojIyAzLiDQmtCw0Log0LTQtdC70LDRgtGMINC4INC+0YLQv9GA0LDQstC70Y/RgtGMINC/0YDQuNCz0LvQsNGI0LXQvdC40Y8KCjEuINCe0YLQutGA0L7QudGC0LUgTWluaSBBcHAgKNC40LvQuCDRgdCw0LnRgiDQsiDQsdGA0LDRg9C30LXRgNC1KS4KMi4g0JfQsNC/0L7Qu9C90LjRgtC1INC40LzRjywg0LTQsNGC0YMsINC60LvRg9CxLCDQstGL0LHQtdGA0LjRgtC1INGB0YLQuNC70YwsINC/0LDQu9C40YLRgNGDLCDRhNC+0L0uCjMuINCd0LDQttC80LjRgtC1ICoqwqvQodCh0KvQm9Ca0JDCuyoqIOKAlCDRgdC60L7Qv9C40YDRg9C10YLRgdGPINCw0LTRgNC10YEg0LLQuNC00LA6CiAgIGBodHRwczovL9CS0JDQqC3Qm9Ce0JPQmNCdLmdpdGh1Yi5pby92ci1pbnZpdGUvI2k9Li4uJnZpZXc9MWAKNC4g0J7RgtC/0YDQsNCy0YzRgtC1INGB0YHRi9C70LrRgyDQs9C+0YHRgtGOLiDQntC9INGD0LLQuNC00LjRgiDRgtC+0LvRjNC60L4g0L7RgtC60YDRi9GC0LrRgyAo0LHQtdC3INC/0LDQvdC10LvQuCDQvdCw0YHRgtGA0L7QtdC6KQogICDQuCDQutC90L7Qv9C60LggwqvQn9C10YDQtdGB0LvQsNGC0YwgLyDQmNC30LzQtdC90LjRgtGMwrsuCgrQkNC00YDQtdGB0L3QsNGPINGB0YLRgNC+0LrQsCDRgtC+0LbQtSDQstGB0LXQs9C00LAg0YHQvtC00LXRgNC20LjRgiDRgdC+0YHRgtC+0Y/QvdC40LUg4oCUINC80L7QttC90L4g0LrQvtC/0LjRgNC+0LLQsNGC0Ywg0LXRkS4KCi0tLQoKIyMgNC4g0JLQsNC20L3Ri9C1INC+0LPRgNCw0L3QuNGH0LXQvdC40Y8KCi0gKirQpNC+0YLQviDQuCDRhNC+0L0g0L3QtSDQv9C10YDQtdC00LDRjtGC0YHRjyDQsiDRgdGB0YvQu9C60LUqKiDigJQg0L7QvdC4INGF0YDQsNC90Y/RgtGB0Y8g0LIg0LHRgNCw0YPQt9C10YDQtSDQsNCy0YLQvtGA0LAuCiAg0JPQvtGB0YLRjCDRg9Cy0LjQtNC40YIg0LjQvNGPLCDQtNCw0YLRgywg0LLRgNC10LzRjywg0LrQu9GD0LEsINGB0YLQuNC70Ywg0Lgg0Y3RhNGE0LXQutGC0YssINC90L4g0LHQtdC3INGE0L7RgtC+LgogINCn0YLQvtCx0Ysg0YTQvtGC0L4g0LHRi9C70L4g0LIg0YHRgdGL0LvQutC1LCDQvdGD0LbQtdC9INC80LDQu9C10L3RjNC60LjQuSDRgdC10YDQstC10YAgKNC30LDQs9GA0YPQt9C60LAg0YTQsNC50LvQsCArINC60L7RgNC+0YLQutC40LkgSUQpLgotICoq0KHRgdGL0LvQutCwINC00LvQuNC90L3QsNGPICh+OTAwINGB0LjQvNCy0L7Qu9C+0LIpKiog4oCUIFRlbGVncmFtINC10ZEg0L7RgtC/0YDQsNCy0LjRgiwg0L3QviDQtNC70Y8g0L/QtdGH0LDRgtC4CiAg0LggUVIg0LvRg9GH0YjQtSDQutC+0YDQvtGC0LrQuNC1INGB0YHRi9C70LrQuCAo0YLQvtC20LUg0YHQtdGA0LLQtdGAKS4KLSAqKtCh0LrQsNGH0LjQstCw0L3QuNC1IFBORy9HSUYv0LLQuNC00LXQvioqINC90LDQtNGR0LbQvdC10LUg0LIg0L7QsdGL0YfQvdC+0Lwg0LHRgNCw0YPQt9C10YDQtSwg0YfQtdC8INCy0L3Rg9GC0YDQuCBUZWxlZ3JhbToKICDQsiBNaW5pIEFwcCDQtdGB0YLRjCDQv9C+0LTRgdC60LDQt9C60LAgwqvQntGC0LrRgNGL0YLRjCDQsiDQsdGA0LDRg9C30LXRgNC1wrsgKNC60L3QvtC/0LrQsCDQsiDQv9Cw0L3QtdC70LgpLgotICoqaVBob25lL1NhZmFyaToqKiBQTkcg0LggR0lGINGA0LDQsdC+0YLQsNGO0YIsINCy0LjQtNC10L4gKE1lZGlhUmVjb3JkZXIpINC80L7QttC10YIg0L3QtSDQt9Cw0L/QuNGB0LDRgtGM0YHRjy4KLSBHaXRIdWIgUGFnZXMg0L3QtSDRhdGA0LDQvdC40YIg0YHQtdC60YDQtdGC0L7QsiDQuCDQvdC1INGD0LzQtdC10YIg0L/RgNC40L3QuNC80LDRgtGMINGE0LDQudC70Ysg4oCUINGN0YLQviDRh9C40YHRgtCw0Y8g0YHRgtCw0YLQuNC60LAuCgotLS0KCiMjIDUuINCn0YLQviDQvNC+0LbQvdC+INC00L7QsdCw0LLQuNGC0Ywg0L/QvtC30LbQtQoKLSDQmtC+0YDQvtGC0LrQuNC1INGB0YHRi9C70LrQuCBgY2x1Yi5ydS9pL2E3ZjNgINC4INC30LDQs9GA0YPQt9C60LAg0YTQvtGC0L4g4oCUIENsb3VkZmxhcmUgV29ya2VyICsgS1YuCi0gUVIg0LIg0LrQsNGA0YLQvtGH0LrQtSDQvdCwINGB0YHRi9C70LrRgyDQstC80LXRgdGC0L4g0YLQtdC60YHRgtCwICjQtNC70Y8g0L/QtdGH0LDRgtC4KS4KLSDQodGH0ZHRgtGH0LjQuiDQvtGC0LrRgNGL0YLQuNC5INC4IFJTVlAgKMKr0J/QvtC00YLQstC10YDQtNC40YLRjCDQv9GA0LjRgdGD0YLRgdGC0LLQuNC1wrspLgoKLS0tCgojIyDQm9C+0LrQsNC70YzQvdCw0Y8g0L/RgNC+0LLQtdGA0LrQsAoK0JjQtyDRjdGC0L7QuSDQv9Cw0L/QutC4OgoKYGBgCnB5dGhvbiAtbSBodHRwLnNlcnZlciA4MDAwCmBgYAoK0Lgg0L7RgtC60YDQvtC50YLQtSBgaHR0cDovL2xvY2FsaG9zdDo4MDAwL2Ag4oCUINGA0L7QstC90L4g0YLQviDQttC1LCDRh9GC0L4g0LHRg9C00LXRgiDQvdCwIEdpdEh1YiBQYWdlcy4K
+# VR Invite — веб-версия: GitHub Pages + Telegram Mini App
+
+Эта папка — готовый статический сайт. Ничего собирать не нужно.
+
+---
+
+## 1. Выложить на GitHub Pages (10 минут)
+
+1. Зарегистрируйтесь на github.com (если ещё нет аккаунта).
+2. **New repository** → имя `vr-invite` → **Public** → Create.
+3. На странице репозитория: **Add file → Upload files**.
+4. Перетащите **содержимое этой папки** (не саму папку):
+   - `index.html`
+   - `app.js`
+   - `export.js`
+   - `favicon.png`
+   - папку `vendor` целиком
+   - `.nojekyll` (скрытый файл — включите показ скрытых файлов)
+5. **Commit changes**.
+6. **Settings → Pages** → Source: *Deploy from a branch* → Branch: `main`, папка `/ (root)` → **Save**.
+7. Через 1–2 минуты сайт откроется по адресу:
+   `https://ВАШ-ЛОГИН.github.io/vr-invite/`
+
+Проверка: откройте адрес в браузере — должен появиться конструктор.
+
+> Если репозиторий называется иначе — адрес будет `.../имя-репозитория/`.
+> Домен `github.io` бесплатный, HTTPS включён автоматически.
+
+---
+
+## 2. Подключить как Telegram Mini App (5 минут)
+
+1. В Telegram откройте **@BotFather** → `/newbot` → придумайте имя и username
+   (например, `TopRacerInviteBot`). Получите токен (храните его, никому не отправляйте).
+2. В BotFather: `/mybots` → выберите бота → **Bot Settings** → **Menu Button** →
+   **Configure menu button** → вставьте URL:
+   `https://ВАШ-ЛОГИН.github.io/vr-invite/`
+   → придумайте подпись, например `Открыть приглашение`.
+3. Там же: **Configure Mini App** → **Enable Mini App** → тот же URL →
+   короткое имя, например `invite`. После этого бот получает прямую ссылку:
+   `https://t.me/ВАШ_БОТ/invite`
+
+Готово: приложение открывается из меню бота и по прямой ссылке.
+
+---
+
+## 3. Как делать и отправлять приглашения
+
+1. Откройте Mini App (или сайт в браузере).
+2. Заполните имя, дату, клуб, выберите стиль, палитру, фон.
+3. Нажмите **«ССЫЛКА»** — скопируется адрес вида:
+   `https://ВАШ-ЛОГИН.github.io/vr-invite/#i=...&view=1`
+4. Отправьте ссылку гостю. Он увидит только открытку (без панели настроек)
+   и кнопки «Переслать / Изменить».
+
+Адресная строка тоже всегда содержит состояние — можно копировать её.
+
+---
+
+## 4. Важные ограничения
+
+- **Фото и фон не передаются в ссылке** — они хранятся в браузере автора.
+  Гость увидит имя, дату, время, клуб, стиль и эффекты, но без фото.
+  Чтобы фото было в ссылке, нужен маленький сервер (загрузка файла + короткий ID).
+- **Ссылка длинная (~900 символов)** — Telegram её отправит, но для печати
+  и QR лучше короткие ссылки (тоже сервер).
+- **Скачивание PNG/GIF/видео** надёжнее в обычном браузере, чем внутри Telegram:
+  в Mini App есть подсказка «Открыть в браузере» (кнопка в панели).
+- **iPhone/Safari:** PNG и GIF работают, видео (MediaRecorder) может не записаться.
+- GitHub Pages не хранит секретов и не умеет принимать файлы — это чистая статика.
+
+---
+
+## 5. Что можно добавить позже
+
+- Короткие ссылки `club.ru/i/a7f3` и загрузка фото — Cloudflare Worker + KV.
+- QR в карточке на ссылку вместо текста (для печати).
+- Счётчик открытий и RSVP («Подтвердить присутствие»).
+
+---
+
+## Локальная проверка
+
+Из этой папки:
+
+```
+python -m http.server 8000
+```
+
+и откройте `http://localhost:8000/` — ровно то же, что будет на GitHub Pages.

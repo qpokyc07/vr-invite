@@ -1,1 +1,39 @@
-IyBWUiBJbnZpdGUg4oCUINC60L7QvdGB0YLRgNGD0LrRgtC+0YAgVlIt0L/RgNC40LPQu9Cw0YjQtdC90LjQuQoK0JLQtdCxLdCy0LXRgNGB0LjRjyDQutC+0L3RgdGC0YDRg9C60YLQvtGA0LAg0L/RgNC40LPQu9Cw0YjQtdC90LjQuSDQvdCwINC00LXQvdGMINGA0L7QttC00LXQvdC40Y8g0LIgVlIt0LrQu9GD0LHQtSBUb3BSYWNlciAo0JrQtdC80LXRgNC+0LLQvikuCgoqKtCh0LDQudGCOioqIGh0dHBzOi8vcXBva3ljMDcuZ2l0aHViLmlvL3ZyLWludml0ZS8KCiMjINCn0YLQviDRjdGC0L4KCtCe0LTQvdC+0YHRgtGA0LDQvdC40YfQvdC+0LUg0L/RgNC40LvQvtC20LXQvdC40LUg0LHQtdC3INGB0LXRgNCy0LXRgNCwOiDRgdC+0LHQuNGA0LDQtdGCINC+0YLQutGA0YvRgtC60YMsINC+0YLQtNCw0ZHRgiDQtdGRINC/0L4g0YHRgdGL0LvQutC1CijRgdC+0YHRgtC+0Y/QvdC40LUg0LfQsNGI0LjRgtC+INCyIGAjaT0uLi5gKSDQuCDRg9C80LXQtdGCINGN0LrRgdC/0L7RgNGC0LjRgNC+0LLQsNGC0YwgUE5HIDEwODDDlzE5MjAsIEdJRiA2MDDDlzEwNjYsCtCy0LjQtNC10L4gMTA4MHAg0LggUERGLgoKLSAzINGB0YLQuNC70Y8sIDE2INC/0LDQu9C40YLRgCArINGB0LLQvtC4INGG0LLQtdGC0LAsIDgg0YDQtdC20LjQvNC+0LIg0YfQsNGB0YLQuNGGLCDRhNC+0L3RiyDCq9CQ0LLRgNC+0YDQsC/QmtC+0YHQvNC+0YEv0JfQsNC60LDRgi/QpNC+0YLQvsK7CiAg0YEg0Y3RhNGE0LXQutGC0L7QvCDRgdGC0LXQutC70LAuCi0g0JjQvNGPINCw0LLRgtC+0LzQsNGC0LjRh9C10YHQutC4INGB0LrQu9C+0L3Rj9C10YLRgdGPINCyINGA0L7QtNC40YLQtdC70YzQvdGL0Lkg0L/QsNC00LXQtjogwqvQn9GA0LjQs9C70LDRiNC10L3QuNC1INC90LAg0LTQtdC90Ywg0YDQvtC20LTQtdC90LjRjyDQkNGA0YHQtdC90LjRj8K7LgotINCi0LDQudC80LXRgCDQv9C+0LrQsNC30YvQstCw0LXRgiDRgtC+0LvRjNC60L4g0LTQvdC4LgoKIyMgVGVsZWdyYW0gTWluaSBBcHAKCtCR0L7RgiDQvtGC0LrRgNGL0LLQsNC10YIg0Y3RgtGDINC20LUg0YHRgtGA0LDQvdC40YbRgyDQutCw0LogTWluaSBBcHA6INC80LXQvdGOLdC60L3QvtC/0LrQsCDQsdC+0YLQsCDQstC10LTRkdGCINC90LAg0YHQsNC50YIsCtCy0L3Rg9GC0YDQuCBUZWxlZ3JhbSDQstC60LvRjtGH0LDRjtGC0YHRjyBgcmVhZHkvZXhwYW5kYCwg0YLQtdC80LAg0Lgg0LrQvdC+0L/QutCwIMKr0J3QsNC30LDQtMK7LgoKIyMg0JrQsNC6INC+0LHQvdC+0LLQuNGC0YwKCjEuINCY0LfQvNC10L3QuNGC0LUg0YTQsNC50LvRiyDQsiDRjdGC0L7QuSDQv9Cw0L/QutC1LgoyLiDQl9Cw0LPRgNGD0LfQuNGC0LUg0LjRhSDQsiDRgNC10L/QvtC30LjRgtC+0YDQuNC5ICjQuNC70Lgg0LfQsNC/0YPRiNGM0YLQtSDRh9C10YDQtdC3IGdpdCkuCjMuIEdpdEh1YiBQYWdlcyDQv9C10YDQtdGB0L7QsdC10YDRkdGCINGB0LDQudGCINCw0LLRgtC+0LzQsNGC0LjRh9C10YHQutC4INC30LAgMeKAkzIg0LzQuNC90YPRgtGLLgoK0J/QvtC00YDQvtCx0L3QsNGPINC40L3RgdGC0YDRg9C60YbQuNGPINC/0L4g0LTQtdC/0LvQvtGOIOKAlCDQsiBbUkVBRE1FLURFUExPWS5tZF0oUkVBRE1FLURFUExPWS5tZCkuCgojIyDQodGC0YDRg9C60YLRg9GA0LAKCmBgYAppbmRleC5odG1sICAgICAg4oCUINGA0LDQt9C80LXRgtC60LAg0Lgg0YHRgtC40LvQuAphcHAuanMgICAgICAgICAg4oCUINGB0L7RgdGC0L7Rj9C90LjQtSwgY2FudmFzLdGB0YbQtdC90LAsINGI0YDQuNGE0YIg0LjQvNC10L3QuCwg0L/QsNC70LjRgtGA0YsKZXhwb3J0LmpzICAgICAgIOKAlCBQTkcvR0lGL9Cy0LjQtNC10L4sINC/0YDQvtCz0YDQtdGB0YEsIFRlbGVncmFtIFNESwp2ZW5kb3IvICAgICAgICAg4oCUIGh0bWwyY2FudmFzLCBxcmNvZGUtZ2VuZXJhdG9yLCDRiNGA0LjRhNGC0YsgKE9GTCkKZmF2aWNvbi5wbmcKYGBgCg==
+# VR Invite — конструктор VR-приглашений
+
+Веб-версия конструктора приглашений на день рождения в VR-клубе TopRacer (Кемерово).
+
+**Сайт:** https://qpokyc07.github.io/vr-invite/
+
+## Что это
+
+Одностраничное приложение без сервера: собирает открытку, отдаёт её по ссылке
+(состояние зашито в `#i=...`) и умеет экспортировать PNG 1080×1920, GIF 600×1066,
+видео 1080p и PDF.
+
+- 3 стиля, 16 палитр + свои цвета, 8 режимов частиц, фоны «Аврора/Космос/Закат/Фото»
+  с эффектом стекла.
+- Имя автоматически склоняется в родительный падеж: «Приглашение на день рождения Арсения».
+- Таймер показывает только дни.
+
+## Telegram Mini App
+
+Бот открывает эту же страницу как Mini App: меню-кнопка бота ведёт на сайт,
+внутри Telegram включаются `ready/expand`, тема и кнопка «Назад».
+
+## Как обновить
+
+1. Измените файлы в этой папке.
+2. Загрузите их в репозиторий (или запушьте через git).
+3. GitHub Pages пересоберёт сайт автоматически за 1–2 минуты.
+
+Подробная инструкция по деплою — в [README-DEPLOY.md](README-DEPLOY.md).
+
+## Структура
+
+```
+index.html      — разметка и стили
+app.js          — состояние, canvas-сцена, шрифт имени, палитры
+export.js       — PNG/GIF/видео, прогресс, Telegram SDK
+vendor/         — html2canvas, qrcode-generator, шрифты (OFL)
+favicon.png
+```
