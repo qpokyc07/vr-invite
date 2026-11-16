@@ -506,7 +506,8 @@ function bindExportUI() {
       '_blank', 'noopener');
   });
   $('vShare').addEventListener('click', doShare);
-  $('vEdit').addEventListener('click', () => {
+  const vEdit = $('vEdit');
+  if (vEdit) vEdit.addEventListener('click', () => {
     const url = buildHash(false);
     location.href = url;
     location.reload();
