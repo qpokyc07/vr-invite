@@ -596,22 +596,8 @@ function applyTelegram(tg) {
 }
 
 function initTelegram() {
-  if (!/^https?:/i.test(location.protocol)) return;   /* Electron: без внешних запросов */
-  if (window.Telegram && window.Telegram.WebApp) {
-    if (isTelegramClient(window.Telegram.WebApp)) applyTelegram(window.Telegram.WebApp);
-    return;
-  }
-  const s = document.createElement('script');
-  s.src = 'https://telegram.org/js/telegram-web-app.js';
-  s.async = true;
-  s.onload = () => {
-    try {
-      const tg = window.Telegram && window.Telegram.WebApp;
-      if (isTelegramClient(tg)) applyTelegram(tg);
-    } catch (e) { }
-  };
-  s.onerror = () => { };
-  document.head.appendChild(s);
+  const tg = window.Telegram && window.Telegram.WebApp;
+  if (tg && isTelegramClient(tg)) applyTelegram(tg);
 }
 
 /* -------------------------------- старт --------------------------------- */
