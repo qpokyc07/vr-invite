@@ -471,19 +471,39 @@ async function copyText(txt) {
 
 function shareUrl() {
   return location.href.split('#')[0] + '#i=' + encodeURIComponent(JSON.stringify(
-    Object.assign({}, state, { view: 1, photo: undefined })
+    Object.assign({}, state, { view: 1, photo: undefined, bg: undefined })
   ));
 }
 
+/* Короткие ссылки: Cloudflare Worker + KV. Если сервис недоступен — полная ссылка. */
+const SHORT_API = 'https://vr-invite-links.qpokyc07.workers.dev';
+
+async function shortUrl() {
+  try {
+    const s = JSON.stringify(Object.assign({}, state, { view: 1, photo: undefined, bg: undefined }));
+    const r = await fetch(SHORT_API + '/api/short', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ s }),
+    });
+    if (r.ok) {
+      const j = await r.json();
+      if (j && j.url) return { url: j.url, short: true };
+    }
+  } catch (e) { }
+  return { url: shareUrl(), short: false };
+}
+
 async function doShare() {
-  const url = shareUrl();
+  const { url, short } = await shortUrl();
   if (navigator.share) {
     try { await navigator.share({ title: 'VR-приглашение', text: shareText(), url }); return; }
     catch (e) { if (e && e.name === 'AbortError') return; }
   }
   const ok = await copyText(url);
-  toast(ok ? 'Ссылка скопирована. Открывается на этом ПК или в веб-версии.'
-    : 'Скопируйте ссылку из адресной строки');
+  toast(ok
+    ? (short ? 'Короткая ссылка скопирована — можно отправлять' : 'Ссылка скопирована')
+    : 'Скопируйте ссылку из адресной строки', !ok);
 }
 
 function bindExportUI() {
@@ -497,12 +517,14 @@ function bindExportUI() {
   });
   $('btnLink').addEventListener('click', doShare);
   $('btnShare').addEventListener('click', doShare);
-  $('btnTg').addEventListener('click', () => {
-    window.open('https://t.me/share/url?url=' + encodeURIComponent(shareUrl()) +
+  $('btnTg').addEventListener('click', async () => {
+    const { url } = await shortUrl();
+    window.open('https://t.me/share/url?url=' + encodeURIComponent(url) +
       '&text=' + encodeURIComponent(shareText()), '_blank', 'noopener');
   });
-  $('btnWa').addEventListener('click', () => {
-    window.open('https://wa.me/?text=' + encodeURIComponent(shareText() + '\n' + shareUrl()),
+  $('btnWa').addEventListener('click', async () => {
+    const { url } = await shortUrl();
+    window.open('https://wa.me/?text=' + encodeURIComponent(shareText() + '\n' + url),
       '_blank', 'noopener');
   });
   $('vShare').addEventListener('click', doShare);
