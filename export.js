@@ -637,6 +637,9 @@ function applyTelegram(tg) {
     document.body.classList.add('tg');
     const hint = $('tgHint');
     if (hint) hint.hidden = false;
+    if ($('btnPng')) $('btnPng').textContent = 'PNG В ЧАТ';
+    if ($('btnGif')) $('btnGif').textContent = 'GIF В ЧАТ';
+    if ($('btnVideo')) $('btnVideo').textContent = 'ВИДЕО В ЧАТ';
     const open = $('tgOpen');
     if (open) open.addEventListener('click', () => {
       try { tg.openLink(location.href); } catch (e) { window.open(location.href, '_blank'); }
