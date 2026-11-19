@@ -130,6 +130,40 @@ function pgClose() {
 }
 $('pgCancel').addEventListener('click', () => { pgCancel = true; });
 
+/* Отправка готового файла в чат с ботом (работает только внутри Telegram) */
+function inTelegram() {
+  const tg = window.Telegram && window.Telegram.WebApp;
+  return (tg && isTelegramClient(tg) && tg.initData) ? tg : null;
+}
+
+async function buildCaption() {
+  const base = 'VR-приглашение · ' + displayName() + '\n' +
+    fmtDate(state.date) + ' в ' + state.time + '\n' + state.cname;
+  try {
+    const { url, short } = await shortUrl();
+    if (short) return base + '\n' + url;
+  } catch (e) { }
+  return base;
+}
+
+async function sendToChat(blob, filename, kind, caption) {
+  const tg = inTelegram();
+  if (!tg) return false;
+  try {
+    const fd = new FormData();
+    fd.append('file', blob, filename);
+    fd.append('kind', kind);
+    fd.append('caption', caption || '');
+    const r = await fetch(SHORT_API + '/api/send', {
+      method: 'POST',
+      headers: { 'X-Tg-InitData': tg.initData },
+      body: fd,
+    });
+    const j = await r.json().catch(() => ({}));
+    return !!(j && j.ok);
+  } catch (e) { return false; }
+}
+
 /* -------------------------------- PNG ----------------------------------- */
 async function exportPng() {
   const w = FORMATS[state.fmt][0], h = FORMATS[state.fmt][1];
@@ -139,9 +173,16 @@ async function exportPng() {
     const cv = await withCapture(w, h, () => captureFrame(w, h, 2.4));
     pgSet(85, 'кодирование');
     const blob = await toBlob(cv, 'image/png', 1);
-    downloadBlob(blob, 'vr-invite-' + slug(state.name) + '-' + state.fmt.replace(':', 'x') + '.png');
-    pgSet(100, 'готово');
-    toast('PNG ' + w + '×' + h + ' сохранён в «Загрузки»');
+    const name = 'vr-invite-' + slug(state.name) + '-' + state.fmt.replace(':', 'x') + '.png';
+    pgSet(93, 'отправка');
+    if (await sendToChat(blob, name, 'photo', await buildCaption())) {
+      pgSet(100, 'в чате');
+      toast('PNG отправлен в чат с ботом');
+    } else {
+      downloadBlob(blob, name);
+      pgSet(100, 'готово');
+      toast('PNG ' + w + '×' + h + ' сохранён в «Загрузки»');
+    }
   } catch (e) {
     if (!pgCancel) toast('Не удалось создать PNG: ' + (e && e.message || e), true);
   } finally { pgClose(); }
@@ -349,10 +390,17 @@ async function exportGif() {
     await sleep(16);
     const delay = new Array(frames.length).fill(6);
     const bytes = gifBuild(frames, palettes, W, H, delay);
-    downloadBlob(new Blob([bytes], { type: 'image/gif' }),
-      'vr-invite-' + slug(state.name) + '-' + state.fmt.replace(':', 'x') + '.gif');
-    pgSet(100, 'готово · ' + (bytes.length / 1048576).toFixed(1) + ' МБ');
-    toast('GIF сохранён (' + (bytes.length / 1048576).toFixed(1) + ' МБ)');
+    const gifBlob = new Blob([bytes], { type: 'image/gif' });
+    const gifName = 'vr-invite-' + slug(state.name) + '-' + state.fmt.replace(':', 'x') + '.gif';
+    pgSet(97, 'отправка');
+    if (await sendToChat(gifBlob, gifName, 'animation', await buildCaption())) {
+      pgSet(100, 'в чате · ' + (bytes.length / 1048576).toFixed(1) + ' МБ');
+      toast('GIF отправлен в чат с ботом');
+    } else {
+      downloadBlob(gifBlob, gifName);
+      pgSet(100, 'готово · ' + (bytes.length / 1048576).toFixed(1) + ' МБ');
+      toast('GIF сохранён (' + (bytes.length / 1048576).toFixed(1) + ' МБ)');
+    }
   } catch (e) {
     if (!pgCancel) toast('Не удалось создать GIF: ' + (e && e.message || e), true);
   } finally { pgClose(); }
@@ -437,9 +485,16 @@ async function exportVideo() {
     const blob = new Blob(chunks, { type });
     if (blob.size < 2048) throw new Error('пустая запись');
     const ext = type.indexOf('mp4') >= 0 ? 'mp4' : 'webm';
-    downloadBlob(blob, 'vr-invite-' + slug(state.name) + '-' + state.fmt.replace(':', 'x') + '.' + ext);
-    pgSet(100, 'готово · ' + (blob.size / 1048576).toFixed(1) + ' МБ');
-    toast('Видео ' + w + '×' + h + ' сохранено (' + (blob.size / 1048576).toFixed(1) + ' МБ)');
+    const vidName = 'vr-invite-' + slug(state.name) + '-' + state.fmt.replace(':', 'x') + '.' + ext;
+    pgSet(97, 'отправка');
+    if (await sendToChat(blob, vidName, 'video', await buildCaption())) {
+      pgSet(100, 'в чате · ' + (blob.size / 1048576).toFixed(1) + ' МБ');
+      toast('Видео отправлено в чат с ботом');
+    } else {
+      downloadBlob(blob, vidName);
+      pgSet(100, 'готово · ' + (blob.size / 1048576).toFixed(1) + ' МБ');
+      toast('Видео ' + w + '×' + h + ' сохранено (' + (blob.size / 1048576).toFixed(1) + ' МБ)');
+    }
   } catch (e) {
     if (!pgCancel) toast('Не удалось записать видео: ' + (e && e.message || e), true);
   } finally { captureVeil = null; pgClose(); }
